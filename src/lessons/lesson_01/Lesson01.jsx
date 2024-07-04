@@ -1,7 +1,20 @@
+// импортируем стили из соседнего файла
+import './lesson01.css'
+
 export default function Lesson01() {
+
+  // описание всего приложения в глобальном объекте document
+  // это и есть DOM (Document Object Model)
+  // console.dir(document);
+
+  // создаем переменную со значением в теле функции до return
+  const heading = 'Урок 01'
+  const classContainer = 'lesson1-container'
+
+
   return (
-    <div>
-      <h4>Lesson 01</h4>
+    <div className={classContainer}>
+      <h4>{heading}</h4>
       <p>Особенности компонента:</p>
       <ul>
         <li>Имеет расширение JSX</li>
