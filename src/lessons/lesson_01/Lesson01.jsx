@@ -8,7 +8,7 @@ export default function Lesson01() {
 
   // создаем переменную со значением в теле функции до return
   const heading = 'Урок 01';
-  const classContainer = 'lesson1-container';
+  const classContainer = 'lesson-container';
 
   function formatName(user) {
     return `Имя: ${user.name}, фамилия: ${user.lastName} 🕵️`
