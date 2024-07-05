@@ -16,3 +16,5 @@
 - Создайте папку loginForm в папке components, в ней - компонент LoginForm, добавьте стили.
 
 - Импортируйте в loginForm заготовленные компоненты MyInput и MyButton и создайте из них форму с тремя input: login, email, password (нужно передать эти данные в качестве props) и кнопкой типа submit
+
+`https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form` - пример формы
