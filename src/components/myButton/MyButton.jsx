@@ -1,10 +1,9 @@
 import "./myButton.css";
 
-export default function MyButton(props) {
-  console.log(props);
+export default function MyButton({ type, onClick, name }) {
   return (
-    <button type={props.type} onClick={props.onClick} className="myButton">
-      {props.name}
+    <button type={type} onClick={onClick} className="myButton">
+      {name}
     </button>
   );
 }
