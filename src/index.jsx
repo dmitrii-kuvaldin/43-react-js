@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./app/App";
-import Homework04 from "./homeworks/Homework04";
 import "./index.css";
+import Lesson04 from "./lessons/lesson_04/Lesson04";
 // import Lesson01 from './lessons/lesson_01/Lesson01';
 // import Lesson02 from './lessons/lesson_02/Lesson02';
 
@@ -14,6 +14,7 @@ root.render(
     {/* <Lesson02/> */}
     {/* <MyForm/> */}
     {/* <Counter /> */}
-    <Homework04 />
+    {/* <Homework04 /> */}
+    <Lesson04 />
   </>
 );
