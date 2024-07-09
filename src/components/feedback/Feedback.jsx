@@ -6,6 +6,7 @@ export default function Feedback() {
   const [dislike, setDislike] = useState(0)
 
   const handleLike = () => {
+    // setLike(prev => prev + 2)
     setLike(prev => prev + 1)
   }
 
